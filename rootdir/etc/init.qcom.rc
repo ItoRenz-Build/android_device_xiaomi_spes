@@ -443,7 +443,7 @@ service hostapd_fst /vendor/bin/hw/hostapd -dd -g /data/vendor/wifi/hostapd/glob
 service charger /system/bin/charger
     class charger
     user system
-    group system graphics input
+    group system graphics
     capabilities SYS_BOOT
     seclabel u:r:charger:s0
 
