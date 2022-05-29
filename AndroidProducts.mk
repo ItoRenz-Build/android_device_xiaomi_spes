@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_spes.mk
+    $(LOCAL_DIR)/voltage_spes.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_spes-user \
-    nad_spes-userdebug \
-    nad_spes-eng
+    voltage_spes-user \
+    voltage_spes-userdebug \
+    voltage_spes-eng
