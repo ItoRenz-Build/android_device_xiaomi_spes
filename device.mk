@@ -367,6 +367,7 @@ PRODUCT_PACKAGES += \
 # NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service.st \
+    android.hardware.secure_element@1.2-service \
     com.android.nfc_extras \
     libchrome.vendor \
     nfc_nci.st21nfc.default \
@@ -414,6 +415,7 @@ PRODUCT_PACKAGES += \
     android.hardware.radio@1.5.vendor \
     android.hardware.radio.config@1.3.vendor \
     android.hardware.radio.deprecated@1.0.vendor \
+    android.hardware.secure_element@1.2 \
     android.hardware.secure_element@1.2.vendor \
     libprotobuf-cpp-full \
     librmnetctl \
